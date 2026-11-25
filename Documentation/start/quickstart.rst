@@ -185,6 +185,12 @@ Boot a test target
 Check enforcement
 -----------------
 
+Change to your checkout inside the guest:
+
+.. code-block:: console
+
+   target# cd /workspace/shirudo
+
 1. Read the status report:
 
    .. guide-check: match ^Status:\s+ok$
@@ -391,6 +397,12 @@ VM enrolled its certificate. You sign with that key on the host.
 Load it
 -------
 
+Change to your checkout inside the guest:
+
+.. code-block:: console
+
+   target# cd /workspace/shirudo
+
 1. Load the upatch on the target:
 
    .. code-block:: console
@@ -554,6 +566,12 @@ nothing but the evidence, your certificates and your artifacts.
 
 Unload it
 ---------
+
+Change to your checkout inside the guest:
+
+.. code-block:: console
+
+   target# cd /workspace/shirudo
 
 1. Unload the upatch:
 
